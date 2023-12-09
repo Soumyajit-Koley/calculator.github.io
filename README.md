@@ -8,7 +8,7 @@ calculator.github.io is a beginner friendly JavaScript project, which has been c
 1. Fork this repo 
 2. Create a new folder in your system.
 3. To copy this repo in your system 
-``` github
+``` git
 git remote add origin copy url from your repo
 
 git init
@@ -18,7 +18,7 @@ git pull origin master
 ```
 4. Now you can change anything.
 5. To push you changes in this repo
-```github
+```git
 git init
 
 git add -A
