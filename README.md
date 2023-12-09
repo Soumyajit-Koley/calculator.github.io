@@ -4,28 +4,38 @@
 
 calculator.github.io is a beginner friendly JavaScript project, which has been created by using basic html, css, JS
 
-## For Pull Request
-1. Fork this repo 
-2. Create a new folder in your system.
-3. To copy this repo in your system 
-``` git
-git remote add origin copy url from your repo
 
-git init
+## How to make a Pull Request
 
-git pull origin master
+**1.** Fork the repository by clicking on the Fork symbol at the top right corner.
+
+**2.** Clone the forked repository.
 
 ```
-4. Now you can change anything.
-5. To push you changes in this repo
-```git
-git init
+   git clone https://github.com/Soumyajit-Koley/calculator.github.io.git
+```
 
-git add -A
-
-git commit -m "your msg"
-
-git push origin master
+**3.** Create a new branch:
 
 ```
-6. Now create a pull request
+   git checkout -b YourBranchName
+```
+
+**4.** Make changes in source code.
+
+**5.** Stage your changes and commit
+
+```
+   git add .
+   git commit -m "<your_commit_message>"
+```
+
+**6.** Push your local commits to the remote repo.
+
+```
+   git push origin YourBranchName
+```
+
+**7.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+
+
